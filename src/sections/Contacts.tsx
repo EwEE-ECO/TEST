@@ -108,26 +108,6 @@ export default function Contacts() {
                 <span>Позвонить</span>
               </a>
               <a
-                href="https://t.me/classic_br"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 px-6 py-3.5 text-sm text-dark-600 hover:text-dark-900 bg-white border border-dark-900/5 hover:border-dark-900/20 transition-all duration-500"
-              >
-                <Send className="w-4 h-4" />
-                <span>Telegram</span>
-                <ArrowUpRight className="w-3.5 h-3.5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-              </a>
-              <a
-                href="https://max.ru/u/f9LHodD0cOICiE22JFKFeGecTPGF0p8j0P2U_Z-X7HXCKy9aOQ7VX2xqlJQ"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group inline-flex items-center gap-2 px-6 py-3.5 text-sm text-dark-600 hover:text-dark-900 bg-white border border-dark-900/5 hover:border-dark-900/20 transition-all duration-500"
-              >
-                <img src="https://maxicons.ru/icons/Max_logo.svg" alt="Max" className="w-4 h-4" />
-                <span>Max</span>
-                <ArrowUpRight className="w-3.5 h-3.5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-              </a>
-              <a
                 href="https://yandex.ru/maps/-/CPXuZIZp"
                 target="_blank"
                 rel="noopener noreferrer"
