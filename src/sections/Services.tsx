@@ -30,7 +30,7 @@ export default function Services() {
           className="text-center mb-12 lg:mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-dark-900 tracking-tight mb-4">
-            Наши <span className="text-dark-600">услуги</span>
+            Наши услуги
           </h2>
           <p className="text-sm text-dark-600 max-w-xl mx-auto">
             Премиальные услуги для мужчин, ценящих качество и стиль

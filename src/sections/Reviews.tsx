@@ -60,7 +60,7 @@ export default function Reviews() {
             </div>
           </motion.div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-dark-900 tracking-tight">
-            Отзывы наших <span className="text-dark-600">гостей</span>
+            Отзывы наших гостей
           </h2>
         </motion.div>
 
