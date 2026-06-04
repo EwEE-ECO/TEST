@@ -1,5 +1,20 @@
 import { motion } from "framer-motion";
-import { MapPin, Phone, Calendar, ArrowUpRight, Send, ExternalLink } from "lucide-react";
+import { MapPin, Phone, Calendar, ArrowUpRight, Send } from "lucide-react";
+
+function MaxIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className={className} xmlns="http://www.w3.org/2000/svg">
+      <circle cx="12" cy="12" r="12" fill="url(#maxGradContacts)" />
+      <text x="12" y="16" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="system-ui">M</text>
+      <defs>
+        <linearGradient id="maxGradContacts" x1="0" y1="0" x2="24" y2="24">
+          <stop stopColor="#4A00E0" />
+          <stop offset="1" stopColor="#8E2DE2" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+}
 
 export default function Contacts() {
   return (
@@ -81,7 +96,7 @@ export default function Contacts() {
 
               <div className="flex items-start gap-4">
                 <div className="w-11 h-11 rounded-sm bg-dark-900 flex items-center justify-center shrink-0">
-                  <ExternalLink className="w-5 h-5 text-white" />
+                  <MaxIcon className="w-5 h-5 text-white" />
                 </div>
                 <div>
                   <h4 className="text-sm font-medium text-dark-900 mb-1">
@@ -123,7 +138,7 @@ export default function Contacts() {
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 px-6 py-3.5 text-sm text-dark-600 hover:text-dark-900 bg-white border border-dark-900/5 hover:border-dark-900/20 transition-all duration-500"
               >
-                <ExternalLink className="w-4 h-4" />
+                <MaxIcon className="w-4 h-4" />
                 <span>Max</span>
                 <ArrowUpRight className="w-3.5 h-3.5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </a>
