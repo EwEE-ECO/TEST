@@ -4,12 +4,21 @@ import { Calendar, ArrowDown, Scissors, Gift } from "lucide-react";
 export default function Hero() {
   return (
     <section className="relative min-h-screen pt-16 lg:pt-20 flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-dark-900" />
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="/hero-bg.mp4" type="video/mp4" />
+      </video>
 
-      <div className="absolute inset-0 bg-gradient-to-br from-dark-800 via-dark-900 to-dark-900" />
+      <div className="absolute inset-0 bg-dark-900/60" />
+      <div className="absolute inset-0 bg-gradient-to-br from-dark-800/80 via-dark-900/80 to-dark-900/80" />
       <div className="absolute inset-0 texture-overlay" />
 
-      <div className="absolute inset-0 opacity-[0.04]">
+      <div className="absolute inset-0 opacity-[0.03]">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-white rounded-full blur-3xl" />
         <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-white rounded-full blur-3xl" />
       </div>

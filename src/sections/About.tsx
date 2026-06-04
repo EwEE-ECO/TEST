@@ -119,11 +119,15 @@ export default function About() {
               animate={isVisible ? { clipPath: "inset(0 0% 0 0)" } : {}}
               transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
             >
-              <img
-                src="https://s.fotora.ru/a8bb63813b93bbe4.png"
-                alt="Интерьер барбершопа Классика"
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
                 className="w-full h-full object-cover"
-              />
+              >
+                <source src="/about-photo.MOV" type="video/quicktime" />
+              </video>
               <div className="absolute inset-0 bg-gradient-to-t from-dark-900/30 to-transparent" />
             </motion.div>
             <motion.div
