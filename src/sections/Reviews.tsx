@@ -122,12 +122,12 @@ export default function Reviews() {
           className="text-center mt-12"
         >
           <motion.a
-            href="https://yandex.ru/maps/-/CPXuZIZp"
             target="_blank"
-            rel="noopener noreferrer"
+            href="https://n1972733.yclients.com"
+            data-company-id="1972733"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
-            className="inline-flex items-center gap-2 px-8 py-4 text-sm font-medium text-white bg-dark-900 hover:bg-dark-700 transition-all duration-500"
+            className="yclients-wr-button inline-flex items-center gap-2 px-8 py-4 text-sm font-medium text-white bg-dark-900 hover:bg-dark-700 transition-all duration-500"
           >
             Получить скидку 15%
           </motion.a>
