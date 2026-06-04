@@ -126,7 +126,7 @@ export default function About() {
                 playsInline
                 className="w-full h-full object-cover"
               >
-                <source src="/about-photo.MOV" type="video/quicktime" />
+                <source src={`${import.meta.env.BASE_URL}about-photo.mp4`} type="video/mp4" />
               </video>
               <div className="absolute inset-0 bg-gradient-to-t from-dark-900/30 to-transparent" />
             </motion.div>
