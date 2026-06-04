@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MapPin, Phone, Calendar, ArrowUpRight } from "lucide-react";
+import { MapPin, Phone, Calendar, ArrowUpRight, Send, ExternalLink } from "lucide-react";
 
 export default function Contacts() {
   return (
@@ -59,6 +59,44 @@ export default function Contacts() {
                   </a>
                 </div>
               </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-11 h-11 rounded-sm bg-dark-900 flex items-center justify-center shrink-0">
+                  <Send className="w-5 h-5 text-white" />
+                </div>
+                <div>
+                  <h4 className="text-sm font-medium text-dark-900 mb-1">
+                    Telegram
+                  </h4>
+                  <a
+                    href="https://t.me/classic_br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-dark-600 hover:text-dark-900 transition-colors"
+                  >
+                    @classic_br
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-11 h-11 rounded-sm bg-dark-900 flex items-center justify-center shrink-0">
+                  <ExternalLink className="w-5 h-5 text-white" />
+                </div>
+                <div>
+                  <h4 className="text-sm font-medium text-dark-900 mb-1">
+                    Max
+                  </h4>
+                  <a
+                    href="https://max.ru/u/f9LHodD0cOICiE22JFKFeGecTPGF0p8j0P2U_Z-X7HXCKy9aOQ7VX2xqlJQ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-dark-600 hover:text-dark-900 transition-colors"
+                  >
+                    Перейти в профиль
+                  </a>
+                </div>
+              </div>
             </div>
 
             <div className="flex flex-wrap gap-3">
@@ -68,6 +106,26 @@ export default function Contacts() {
               >
                 <Phone className="w-4 h-4" />
                 <span>Позвонить</span>
+              </a>
+              <a
+                href="https://t.me/classic_br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-2 px-6 py-3.5 text-sm text-dark-600 hover:text-dark-900 bg-white border border-dark-900/5 hover:border-dark-900/20 transition-all duration-500"
+              >
+                <Send className="w-4 h-4" />
+                <span>Telegram</span>
+                <ArrowUpRight className="w-3.5 h-3.5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+              </a>
+              <a
+                href="https://max.ru/u/f9LHodD0cOICiE22JFKFeGecTPGF0p8j0P2U_Z-X7HXCKy9aOQ7VX2xqlJQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-2 px-6 py-3.5 text-sm text-dark-600 hover:text-dark-900 bg-white border border-dark-900/5 hover:border-dark-900/20 transition-all duration-500"
+              >
+                <ExternalLink className="w-4 h-4" />
+                <span>Max</span>
+                <ArrowUpRight className="w-3.5 h-3.5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </a>
               <a
                 href="https://yandex.ru/maps/-/CPXuZIZp"
@@ -88,6 +146,15 @@ export default function Contacts() {
                 <Calendar className="w-4 h-4" />
                 <span>Онлайн запись</span>
                 <ArrowUpRight className="w-3.5 h-3.5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+              </a>
+              <a
+                target="_blank"
+                href="https://n1972733.yclients.com"
+                data-company-id="1972733"
+                className="yclients-wr-button group inline-flex items-center gap-2 px-6 py-3.5 text-sm font-medium text-white bg-dark-900 hover:bg-dark-700 transition-all duration-500"
+              >
+                <Calendar className="w-4 h-4" />
+                <span>Скидка 15%</span>
               </a>
             </div>
           </motion.div>

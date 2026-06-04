@@ -1,4 +1,4 @@
-import { Scissors, Phone, MapPin, Calendar, ArrowUpRight } from "lucide-react";
+import { Scissors, Phone, MapPin, Calendar, ArrowUpRight, Send, ExternalLink } from "lucide-react";
 
 const footerLinks = [
   { label: "Услуги", href: "#services" },
@@ -28,8 +28,8 @@ export default function Footer() {
               Мужские стрижки. Борода. Уход. Без лишнего.
             </p>
             <div className="flex items-center gap-1 text-sm text-white/50">
-              <span>Средний рейтинг 4.9</span>
-              <span className="text-gray-200">★</span>
+              <span>Рейтинг</span>
+              <span className="text-gray-200">★★★★★</span>
             </div>
           </div>
 
@@ -83,6 +83,28 @@ export default function Footer() {
                 >
                   <Phone className="w-4 h-4 shrink-0 text-gray-200" />
                   <span>+7 (918) 128-08-65</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://t.me/classic_br"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm text-white/50 hover:text-white transition-colors duration-300"
+                >
+                  <Send className="w-4 h-4 shrink-0 text-gray-200" />
+                  <span>@classic_br</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://max.ru/u/f9LHodD0cOICiE22JFKFeGecTPGF0p8j0P2U_Z-X7HXCKy9aOQ7VX2xqlJQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm text-white/50 hover:text-white transition-colors duration-300"
+                >
+                  <ExternalLink className="w-4 h-4 shrink-0 text-gray-200" />
+                  <span>Max</span>
                 </a>
               </li>
             </ul>

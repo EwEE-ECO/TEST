@@ -55,7 +55,7 @@ export default function Reviews() {
                 viewport={{ once: true }}
                 className="text-xs text-dark-600 mt-1"
               >
-                На основе {reviews.length} отзывов
+                На основе {reviews.length} отзывов с Яндекс Карт
               </motion.span>
             </div>
           </motion.div>
