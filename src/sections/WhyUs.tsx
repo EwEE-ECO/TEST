@@ -45,7 +45,7 @@ export default function WhyUs() {
           className="text-center mb-12 lg:mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-dark-900 tracking-tight mb-4">
-            Почему выбирают <span className="text-dark-600">нас</span>
+            Почему выбирают нас
           </h2>
           <p className="text-sm text-dark-600 max-w-xl mx-auto">
             Мы делаем всё, чтобы каждый визит оставлял только положительные впечатления
